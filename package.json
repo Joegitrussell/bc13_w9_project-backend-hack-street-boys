@@ -6,7 +6,7 @@
   "main": "app.js",
   "scripts": {
     "test":"node  -r dotenv/config --experimental-vm-modules node_modules/jest/bin/jest.js",
-    "start": "node -r dotenv/config app.js",
+    "start": "node -r dotenv/config server.js",
     "dev": "nodemon -r dotenv/config server.js"
   },
   "repository": {
